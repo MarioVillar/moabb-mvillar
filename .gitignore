@@ -1,3 +1,9 @@
+# Ignore unittest results
+res_test
+test_save_path
+*.pkl
+tutorials/*.mat
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

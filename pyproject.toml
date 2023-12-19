@@ -82,3 +82,6 @@ src_paths = ["moabb"]
 profile = "black"
 line_length = 90
 lines_after_imports = 2
+
+[tool.poetry2conda]
+name = "moabb"

@@ -1,7 +1,7 @@
 # Mother of all BCI Benchmarks
 
 <p align=center>
-  <img alt="banner" src="/images/M.png/">
+  <img alt="banner" src="images/M.png/">
 </p>
 <p align=center>
   Build a comprehensive benchmark of popular Brain-Computer Interface (BCI) algorithms applied on an extensive list of freely available EEG datasets.
@@ -11,8 +11,6 @@
 
 **This is an open science project that may evolve depending on the need of the
 community.**
-
-
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10034224.svg)](https://doi.org/10.5281/zenodo.10034224)
 [![Build Status](https://github.com/NeuroTechX/moabb/workflows/Test/badge.svg)](https://github.com/NeuroTechX/moabb/actions?query=branch%3Amaster)
@@ -31,15 +29,57 @@ Thank you for visiting the Mother of all BCI Benchmark repository.
 This document is a hub to give you some information about the project. Jump straight to
 one of the sections below, or just scroll down to find out more.
 
-- [What are we doing? (And why?)](#what-are-we-doing)
-- [Installation](#installation)
-- [Running](#running)
-- [Supported datasets](#supported-datasets)
-- [Who are we?](#who-are-we)
-- [Get in touch](#contact-us)
-- [Documentation][link_moabb_docs]
-- [Architecture and main concepts](#architecture-and-main-concepts)
-- [Citing MOABB and related publications](#citing-moabb-and-related-publications)
+- [Mother of all BCI Benchmarks](#mother-of-all-bci-benchmarks)
+  - [Disclaimer](#disclaimer)
+  - [Welcome!](#welcome)
+  - [Commits guide](#commits-guide)
+  - [What are we doing?](#what-are-we-doing)
+    - [The problem](#the-problem)
+    - [The solution](#the-solution)
+  - [Installation](#installation)
+    - [Pip installation](#pip-installation)
+    - [Manual installation](#manual-installation)
+    - [Requirements we use](#requirements-we-use)
+  - [Running](#running)
+    - [Verify Installation](#verify-installation)
+    - [Use MOABB](#use-moabb)
+    - [Moabb and docker](#moabb-and-docker)
+    - [Troubleshooting](#troubleshooting)
+  - [Supported datasets](#supported-datasets)
+    - [Submit a new dataset](#submit-a-new-dataset)
+  - [Who are we?](#who-are-we)
+    - [What do we need?](#what-do-we-need)
+    - [Get involved](#get-involved)
+  - [Contact us](#contact-us)
+  - [Architecture and Main Concepts](#architecture-and-main-concepts)
+    - [Datasets](#datasets)
+    - [Paradigm](#paradigm)
+    - [Evaluations](#evaluations)
+    - [Pipelines](#pipelines)
+    - [Statistics and visualization](#statistics-and-visualization)
+  - [Citing MOABB and related publications](#citing-moabb-and-related-publications)
+  - [Thank You](#thank-you)
+
+## Commits guide
+
+```
+♻️ [Refactor code] ♻️
+⚡️ [Improve code] ⚡️
+🐛 [Fix bug] 🐛
+🩹 [Fix non critical bug] 🩹
+🚑️ [Critical Hotfix] 🚑️
+✅ [Add feature] ✅
+✨ [Add small feature] ✨
+🚧 [Feature not completed] 🚧
+💥 [Add breaking changes] 💥
+➕ [Add dependency] ➕
+➖ [Remove dependency] ➖
+🗑️ [Remove] 🗑️
+📝 [Document] 📝
+🔀 [Merge] 🔀
+🎨 [Code formatting] 🎨
+🔒️ [Fix security issues] 🔒️
+```
 
 ## What are we doing?
 
@@ -245,7 +285,7 @@ channel][link_neurotechx_signup].
 ## Architecture and Main Concepts
 
 <p align="center">
-  <img alt="banner" src="/images/architecture.png/" width="400">
+  <img alt="banner" src="images/architecture.png/" width="400">
 </p>
 There are 4 main concepts in the MOABB: the datasets, the paradigm, the evaluation, and the pipelines. In addition, we offer statistical and visualization utilities to simplify the workflow.
 
